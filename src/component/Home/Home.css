@@ -8,9 +8,13 @@
     text-align: center;
     padding-top: 60px;
 }
-.first-container{
+.new-first-container{
     height: 221px;
     gap: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     opacity: 0px;
     background-color: #EAF2EA;
 }

@@ -1,4 +1,4 @@
-import { Component } from "react";
+
 import { Navbar } from "../Navbar/Navbar";
 import './Home.css'
 import { Link } from "react-router-dom";
@@ -7,7 +7,7 @@ const Home=()=>{
         return (
             <div>
                 <Navbar/>
-                <div className="first-container">
+                <div className="new-first-container">
                     <h1>Find expert Doctors for an In-clinic session here </h1>
                     <div className="void-container">
                     <div className="select-container">
